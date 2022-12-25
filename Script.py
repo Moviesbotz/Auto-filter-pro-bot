@@ -277,7 +277,7 @@ Name - {}
 """
 
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b>🔖 ᴛɪᴛʟᴇ : <a href={url}>{title}</a>
 
 🎭 ɢᴇɴʀᴇs : {genres}
 🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
