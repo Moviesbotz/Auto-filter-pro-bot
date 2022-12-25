@@ -287,7 +287,7 @@ Name - {}
 🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
 📖 sᴛᴏʀʏ : {plot} 
 
-©{message.chat.title}</b>
+★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : @TeamHMT_Bots</b>
 """
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
