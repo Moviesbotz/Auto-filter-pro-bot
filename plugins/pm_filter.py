@@ -448,10 +448,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await query.answer(url=f"https://shorturllink.in/st?api=45c5a4a773e132b44a5b2e9056d07befd949276e&url=https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 return
             elif settings['botpm']:
-                await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
+                await query.answer(url=f"https://shorturllink.in/st?api=45c5a4a773e132b44a5b2e9056d07befd949276e&url=https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
                 await query.answer('𝘾𝙝𝙚𝙘𝙠 𝙋𝙈, 𝙄 𝙝𝙖𝙫𝙚 𝙨𝙚𝙣𝙩 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 𝙥𝙢\n@𝑇𝑇 𝐵𝑂𝑇𝑆​', show_alert=True)
                 return
             else:
